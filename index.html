@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify Genre & PLaylist Finder</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="hidden">
+            <div class="search-container">
+                <div class="genre">
+                    <label class="padding" for="genre">Genre: </label>
+                    <select name="" id="genre">
+                        <option>Select</option>
+                    </select>
+                </div>
+                <div class="playlist-option">
+                    <label class="padding" for="playlist">Playlist</label>
+                    <select name="" id="playlist">
+                        <option>Select</option>
+                    </select>
+                </div>
+                <div class="search-button">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="playlist">
+            <div class="song-placeholder">
+                <div class="song-list">
+                    <a href="#" class="list-group-items">Song 1</a>
+                </div>
+                <div class="song-list">
+                    <a href="#" class="list-group-items">Song 2</a>
+                </div>
+            </div>
+            <div class="song-details">
+                <div class="song-img">
+                    <img src="https://pbs.twimg.com/media/D0UsODIXQAAyWTk.jpg" width="200" height="200">
+                </div>
+                <div class="song-title song-info">
+                    <h4>Song title: </h4>
+                </div>
+                <div class="song-artist song-info">
+                    <h4>By: </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
